@@ -1,4 +1,5 @@
 const reverseStrings = str =>
+
   str
     .toLowerCase()
     .split('')
