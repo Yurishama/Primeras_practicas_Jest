@@ -1,4 +1,9 @@
 //Test
+//1 corregir los archivos APP
+//Separar las pruebas en diferentes scripts
+//Resultado final: 6 scripts (3 las funciones a probar) (3 las pruebas)
+//jest o mocha usar uno o otro
+
 
 describe('hello', () => {
   it('should output hello', () => {

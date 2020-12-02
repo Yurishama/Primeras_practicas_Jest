@@ -1,3 +1,5 @@
+//Separar esto a 3 scripts
+
 export const hello = () => 'Hello';
 
 export const add = (x, y) => {
