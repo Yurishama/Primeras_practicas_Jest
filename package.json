@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --no-cache"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yurishama/Primeras_practicas_Jest.git"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -19,5 +20,10 @@
   "homepage": "https://github.com/Yurishama/Primeras_practicas_Jest#readme",
   "devDependencies": {
     "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "babel-jest": "^26.6.3",
+    "doctest": "^0.17.1",
+    "standard": "^16.0.3"
   }
 }
